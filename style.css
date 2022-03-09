@@ -1,17 +1,18 @@
-header {
-    color: rgb(252, 252, 252);
+#titulo {
+    color: aliceblue;
+    padding: 60px 20px;
 }
 
 #back {
     width: auto;
     height: 200px;
-    color: rgb(252, 252, 252);
-    background-image: url(./assets/img/bookscover.jpeg);
-    filter: brightness(0.6);
+    background-image: linear-gradient(90deg, #272729d2 30%, rgba(255, 0, 0, 0) 70% ), url(./assets/img/bookscover.jpeg);
+
 }
 
 
-#titulo {
-    padding: 60px 20px;
+
+body {
+    background-color: beige;
 }
 
