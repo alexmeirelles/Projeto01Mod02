@@ -11,7 +11,7 @@ elementoBtn.addEventListener("click", () => {
     elementonivel.innerText = "Nível: Schuwazenneger";
     elementoBtn.value = "segundo";
 } else if (elementoBtn.value == "segundo") {
-    elementoImg.src = "bill.jpeg";
+    elementoImg.src = "./assets/img/bill.jpeg";
     elementolivros.innerText = "Até Livros Lidos : 8";
     elementonivel.innerText = "Nível: Bill Gates";
     elementoBtn.value = "terceiro";
