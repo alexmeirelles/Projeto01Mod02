@@ -52,3 +52,9 @@ body {
 #direita {
     display: flex;
 }
+
+#imagem {
+    max-width: 300px;
+    max-height: 400px;
+    height: fit-content;
+}

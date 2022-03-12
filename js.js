@@ -6,7 +6,7 @@ let elementoBtn = document.querySelector("#botao");
 
 elementoBtn.addEventListener("click", () => {
   if (elementoBtn.value == "primeiro") {
-    elementoImg.src = "arnold.webp";
+    elementoImg.src = "./assets/img/arnold.webp";
     elementolivros.innerText = "Até Livros Lidos : 4";
     elementonivel.innerText = "Nível: Schuwazenneger";
     elementoBtn.value = "segundo";
@@ -16,7 +16,7 @@ elementoBtn.addEventListener("click", () => {
     elementonivel.innerText = "Nível: Bill Gates";
     elementoBtn.value = "terceiro";
 } else {
-    elementoImg.src = "warren.jpeg";
+    elementoImg.src = "./assets/img/warren.jpeg";
     elementolivros.innerText = "Até Livros Lidos : 12";
     elementonivel.innerText = "Nível: Warren Buffet";
     elementoBtn.value = "primeiro";
