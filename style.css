@@ -22,6 +22,7 @@ body {
     margin-bottom: 30px;
     flex-wrap: wrap;
 
+
 }
 
 #esquerda {
@@ -52,10 +53,10 @@ body {
 
 #direita {
     display: flex;
+    height: 20em;
 }
 
 #imagem {
     max-width: 300px;
     max-height: 400px;
-    height: fit-content;
 }
